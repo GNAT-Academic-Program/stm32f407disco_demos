@@ -1,0 +1,20 @@
+name = "stm32f407disco_demos"
+description = ""
+version = "0.1.0"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = "https://github.com/GNAT-Academic-Program/stm32f407disco_demos"
+tags = []
+
+[[depends-on]]
+stm32f407disco_bsp = "*"
+
+auto-gpr-with = false
+project-files = [
+"blinky/blinky.gpr",
+"blinky_tasks_0/blinky_tasks_0.gpr",
+"blinky_protected_0/blinky_protected_0.gpr",
+]
