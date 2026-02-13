@@ -1,4 +1,6 @@
 with "runtime_build.gpr";
+with "stm32f407_hal.gpr";
+with "stm32f407disco_bsp.gpr";
 project Blinky is
 
    for Target use runtime_build'Target;
