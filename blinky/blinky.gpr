@@ -1,3 +1,4 @@
+with "ravenscar_build.gpr";
 with "runtime_build.gpr";
 with "stm32f407_hal.gpr";
 with "stm32f407disco_bsp.gpr";
