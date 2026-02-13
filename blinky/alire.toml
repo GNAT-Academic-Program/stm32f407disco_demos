@@ -1,0 +1,18 @@
+name = "blinky"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+executables = ["blinky"]
+
+[[depends-on]]
+light_stm32f407 = "*"
+stm32f407_hal = "*"
+stm32f407disco_bsp = "*"
+hal = "*"
