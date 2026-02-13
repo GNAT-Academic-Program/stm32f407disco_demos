@@ -1,7 +1,5 @@
 with "config/blinky_protected_0_config.gpr";
 with "runtime_build.gpr";
-with "stm32f407_hal.gpr";
-with "stm32f407disco_bsp.gpr";
 project Blinky_Protected_0 is
 
    for Target use runtime_build'Target;
